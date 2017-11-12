@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/samples/air-conditioner/air-conditioner.iml" filepath="$PROJECT_DIR$/samples/air-conditioner/air-conditioner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/clock/clock.iml" filepath="$PROJECT_DIR$/samples/clock/clock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cybergarage-upnp.iml" filepath="$PROJECT_DIR$/cybergarage-upnp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/cybergarage-upnp-core.iml" filepath="$PROJECT_DIR$/core/cybergarage-upnp-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/light/light.iml" filepath="$PROJECT_DIR$/samples/light/light.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/remote-controller/remote-controller.iml" filepath="$PROJECT_DIR$/samples/remote-controller/remote-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/tv/tv.iml" filepath="$PROJECT_DIR$/samples/tv/tv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/control-point/upnp-ctrl.iml" filepath="$PROJECT_DIR$/tools/control-point/upnp-ctrl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/igd-tool/upnp-igd.iml" filepath="$PROJECT_DIR$/tools/igd-tool/upnp-igd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/std/upnp-std.iml" filepath="$PROJECT_DIR$/std/upnp-std.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/upnpdump/upnpdump.iml" filepath="$PROJECT_DIR$/samples/upnpdump/upnpdump.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/washer/washer.iml" filepath="$PROJECT_DIR$/samples/washer/washer.iml" />
+    </modules>
+  </component>
+</project>

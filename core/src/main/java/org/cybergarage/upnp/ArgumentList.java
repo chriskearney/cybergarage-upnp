@@ -101,10 +101,7 @@ public class ArgumentList extends Vector {
         int nArgs = size();
         for (int n = 0; n < nArgs; n++) {
             Argument arg = getArgument(n);
-            // if (arg.isOutDirection()){
-            // dirty hack to make this work with the wemo inwall switches
-            // something is f'd up with a OUT arg that comes back. I dont care about it for my simple library, so im not proceeding with any out args at all
-            if (false) {
+            if (arg.getArgumentNode().toString().contains("<name>BinaryState") && arg.isOutDirection()) {
                 String argName = arg.getName();
                 Argument outArg = outArgList.getArgument(argName);
                 if (outArg == null)

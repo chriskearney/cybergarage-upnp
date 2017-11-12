@@ -257,6 +257,9 @@ public class Device implements org.cybergarage.http.HTTPRequestListener,
 			String locationURLStr) {
 		if ((urlString == null) || (urlString.length() <= 0))
 			return "";
+		if (locationURLStr != null && locationURLStr.endsWith("/setup.xml")) {
+			locationURLStr = locationURLStr.replace("/setup.xml", "");
+		}
 
 		try {
 			URL url = new URL(urlString);
